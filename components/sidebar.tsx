@@ -16,7 +16,7 @@ export function Sidebar() {
         <div className="flex flex-col sm:flex-row lg:flex-col items-center gap-6">
           <div className="rounded-xl overflow-hidden bg-gradient-to-br from-muted/50 to-muted">
             <Image 
-              src="/placeholder.svg?height=120&width=120"
+              src="/https://i.ibb.co/SNxQVFS/my-avatar.png?height=120&width=120"
               alt="Joshua Wafula"
               width={120}
               height={120}
