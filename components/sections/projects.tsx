@@ -8,38 +8,43 @@ import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from "@
 import { Dialog, DialogContent, DialogTrigger } from "@/components/ui/dialog"
 import { Button } from "@/components/ui/button"
 
+// Define project categories
+const categories = ["All", "UI/UX Design", "Photography", "Anime Drawing", "App Development"]
+
+// Sample projects data
+// You can easily add more projects or modify existing ones
 const projects = [
   {
-    title: "Brawlhalla",
-    category: "App Development",
-    image: "https://telegra.ph/file/825ff9b4047b09a7bedaa.png",
-    link: "https://github.com/yourusername/brawlhalla-project",
-  },
-  {
-    title: "Task Manager",
-    category: "App Development",
-    image: "https://telegra.ph/file/f3f689a8c12f9b63788ef.jpg",
-    link: "https://github.com/yourusername/task-manager-project",
-  },
-  {
-    title: "Architecture Project",
-    category: "Web Development",
+    title: "E-commerce Website Redesign",
+    category: "UI/UX Design",
     image: "/placeholder.svg?height=200&width=300",
-    link: "https://github.com/yourusername/architecture-project",
+    link: "https://github.com/yourusername/ecommerce-redesign",
   },
   {
-    title: "Choso-JJK",
-    category: "Anime Art",
-    image: "https://telegra.ph/file/11ad0996a2261b8a57e1d.jpg",
-    link: "https://www.deviantart.com/yourusername/art/Choso-JJK",
+    title: "Nature Photography Collection",
+    category: "Photography",
+    image: "/placeholder.svg?height=200&width=300",
+    link: "https://www.flickr.com/yourusername/nature-collection",
   },
+  {
+    title: "Anime Character Portraits",
+    category: "Anime Drawing",
+    image: "/placeholder.svg?height=200&width=300",
+    link: "https://www.deviantart.com/yourusername/gallery/anime-portraits",
+  },
+  {
+    title: "Task Manager App",
+    category: "App Development",
+    image: "/placeholder.svg?height=200&width=300",
+    link: "https://github.com/yourusername/task-manager-app",
+  },
+  // Add more projects as needed
 ]
-
-const categories = ["All", ...new Set(projects.map((project) => project.category))]
 
 export function ProjectsSection() {
   const [selectedCategory, setSelectedCategory] = useState("All")
 
+  // Filter projects based on selected category
   const filteredProjects =
     selectedCategory === "All" ? projects : projects.filter((project) => project.category === selectedCategory)
 
@@ -48,6 +53,7 @@ export function ProjectsSection() {
       <Card>
         <CardHeader className="flex flex-col sm:flex-row justify-between items-start sm:items-center gap-4">
           <CardTitle className="text-2xl font-bold gradient-text">My Projects</CardTitle>
+          {/* Category selector */}
           <Select value={selectedCategory} onValueChange={setSelectedCategory}>
             <SelectTrigger className="w-full sm:w-[180px] border-primary">
               <SelectValue placeholder="Select category" />
@@ -66,6 +72,7 @@ export function ProjectsSection() {
             {filteredProjects.map((project, index) => (
               <Dialog key={index}>
                 <DialogTrigger asChild>
+                  {/* Project card */}
                   <div className="group relative overflow-hidden rounded-xl transition-all duration-300 ease-in-out hover:scale-105 hover:shadow-lg cursor-pointer">
                     <Image
                       src={project.image || "/placeholder.svg"}
@@ -87,6 +94,7 @@ export function ProjectsSection() {
                     </div>
                   </div>
                 </DialogTrigger>
+                {/* Project details dialog */}
                 <DialogContent className="sm:max-w-[600px]">
                   <Image
                     src={project.image || "/placeholder.svg"}

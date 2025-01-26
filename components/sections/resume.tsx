@@ -51,6 +51,26 @@ export function ResumeSection() {
               Working on various projects, delivering high-quality results and forming genuine connections with clients worldwide.
             </p>
           </div>
+          <div>
+            <h3 className="font-semibold underline-gradient">IT Assistant</h3>
+            <p className="text-sm text-muted-foreground">2022 — 2023</p>
+            <p className="mt-2 text-sm">
+            Previous role at KenGen where I immersed myself in the world of IT, tackling diverse challenges and fostering growth. 
+            I contributed to streamlining processes, enhancing system efficiency, and ensuring smooth operations. 
+            My tenure solidified my technical skills and emphasized the value of teamwork. I took pride in being a reliable resource,
+             leveraging technology to drive organizational success and empower my colleagues.
+            </p>
+          </div>
+          <div>
+            <h3 className="font-semibold underline-gradient">Admissions Clerk</h3>
+            <p className="text-sm text-muted-foreground">2020 — 2024</p>
+            <p className="mt-2 text-sm">
+            During my tenure as a part-time Admissions Clerk at Kibabii University,
+             I efficiently managed admissions processes, ensuring accuracy and timeliness in handling student applications.Contributing to a seamless experience for both students and staff.
+              I thrived in a fast-paced environment, adapting quickly to evolving needs and consistently delivering results. 
+              My time at Kibabii University reinforced the importance of effective communication and teamwork in achieving shared goals.
+            </p>
+          </div>
         </CardContent>
       </Card>
 

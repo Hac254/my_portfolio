@@ -27,6 +27,30 @@ const blogs = [
     excerpt: "Want to perform strength moves that defy gravity? We've got a workout for that",
     link: "https://telegra.ph/Guide-to-Calisthenics-04-16",
   },
+  {
+    title: "Artificial intelligence",
+    category: "Tech",
+    date: "March 11, 2024",
+    image: "https://telegra.ph/file/a32ce890ec9723d0dcec9.jpg",
+    excerpt: "What Is AI?",
+    link: "https://telegra.ph/Artificial-Intelligence-AI-04-16",
+  },
+  {
+    title: "Mental Health",
+    category: "Well being",
+    date: "Aug 23, 2023",
+    image: "https://telegra.ph/file/686d10e8a57a8f737d593.png",
+    excerpt: "What is Mental Health?",
+    link: "https://telegra.ph/Mental-Health-04-16",
+  },
+  {
+    title: "Anime",
+    category: "Fun",
+    date: "Feb 11, 2022",
+    image: "https://telegra.ph/file/686d10e8a57a8f737d593.png",
+    excerpt: "Everything You Need To Know about this artform",
+    link: "https://telegra.ph/Mental-Health-04-16",
+  },
 ]
 
 export function BlogsSection() {

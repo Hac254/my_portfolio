@@ -1,14 +1,8 @@
 "use client"
 
-import { X } from 'lucide-react'
+import { X } from "lucide-react"
 import Image from "next/image"
-import {
-  Dialog,
-  DialogContent,
-  DialogHeader,
-  DialogTitle,
-  DialogTrigger,
-} from "@/components/ui/dialog"
+import { Dialog, DialogContent, DialogHeader, DialogTitle, DialogTrigger } from "@/components/ui/dialog"
 import { Button } from "@/components/ui/button"
 import { Card } from "@/components/ui/card"
 
@@ -27,7 +21,7 @@ export function TestimonialDialog({ name, role, content, image }: TestimonialDia
           <div className="p-6">
             <div className="flex items-center mb-4">
               <Image
-                src={image}
+                src={image || "/placeholder.svg"}
                 alt={name}
                 width={50}
                 height={50}
@@ -40,15 +34,13 @@ export function TestimonialDialog({ name, role, content, image }: TestimonialDia
             </div>
             <div className="relative">
               <Image
-                src="/icon-quote.svg"
+                src="/icons/icon-quote.svg"
                 alt="Quote"
-                width={34}
-                height={23}
-                className="absolute -top-2 -left-2 opacity-20"
+                width={20}
+                height={14}
+                className="absolute -top-1 -left-1 opacity-30"
               />
-              <p className="italic text-muted-foreground line-clamp-3 pl-8">
-                {content}
-              </p>
+              <p className="italic text-muted-foreground line-clamp-3 pl-8">{content}</p>
             </div>
           </div>
         </Card>
@@ -63,13 +55,7 @@ export function TestimonialDialog({ name, role, content, image }: TestimonialDia
         </button>
         <DialogHeader>
           <div className="flex items-center">
-            <Image
-              src={image}
-              alt={name}
-              width={60}
-              height={60}
-              className="rounded-full mr-4"
-            />
+            <Image src={image || "/placeholder.svg"} alt={name} width={60} height={60} className="rounded-full mr-4" />
             <div>
               <DialogTitle>{name}</DialogTitle>
               <p className="text-sm text-muted-foreground">{role}</p>
@@ -78,11 +64,11 @@ export function TestimonialDialog({ name, role, content, image }: TestimonialDia
         </DialogHeader>
         <div className="relative mt-4">
           <Image
-            src="/icon-quote.svg"
+            src="/icons/icon-quote.svg"
             alt="Quote"
-            width={34}
-            height={23}
-            className="absolute -top-2 -left-2 opacity-20"
+            width={20}
+            height={14}
+            className="absolute -top-1 -left-1 opacity-30"
           />
           <p className="italic text-muted-foreground pl-8">{content}</p>
         </div>

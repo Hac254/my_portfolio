@@ -1,5 +1,5 @@
 import type { Metadata } from "next"
-import { Poppins } from 'next/font/google'
+import { Poppins } from "next/font/google"
 import "./globals.css"
 
 const poppins = Poppins({
@@ -21,9 +21,7 @@ export default function RootLayout({
   return (
     <html lang="en" className="dark">
       <body className={`${poppins.variable} font-sans bg-background`}>
-        <main className="min-h-screen flex flex-col lg:flex-row gap-6 p-4 md:p-6 lg:p-8 max-w-7xl mx-auto">
-          {children}
-        </main>
+        <main className="min-h-screen p-4 md:p-6 lg:p-8 max-w-7xl mx-auto">{children}</main>
       </body>
     </html>
   )
