@@ -47,9 +47,9 @@ const blogs = [
     title: "Anime",
     category: "Fun",
     date: "Feb 11, 2022",
-    image: "https://telegra.ph/file/686d10e8a57a8f737d593.png",
+    image: "https://telegra.ph/file/3cd577027ee2a455251a9.jpg",
     excerpt: "Everything You Need To Know about this artform",
-    link: "https://telegra.ph/Mental-Health-04-16",
+    link: "https://telegra.ph/What-Is-Anime-04-16",
   },
 ]
 

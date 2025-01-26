@@ -15,22 +15,22 @@ const categories = ["All", "UI/UX Design", "Photography", "Anime Drawing", "App 
 // You can easily add more projects or modify existing ones
 const projects = [
   {
-    title: "E-commerce Website Redesign",
-    category: "UI/UX Design",
-    image: "/placeholder.svg?height=200&width=300",
-    link: "https://github.com/yourusername/ecommerce-redesign",
-  },
-  {
-    title: "Nature Photography Collection",
+    title: "Layers of texture, tales of comfort",
     category: "Photography",
-    image: "/placeholder.svg?height=200&width=300",
-    link: "https://www.flickr.com/yourusername/nature-collection",
+    image: "https://i.ibb.co/H2xCT7H/house4.jpg",
+    link: "https://telegra.ph/Images-from-my-project-12-12",
   },
   {
-    title: "Anime Character Portraits",
-    category: "Anime Drawing",
-    image: "/placeholder.svg?height=200&width=300",
-    link: "https://www.deviantart.com/yourusername/gallery/anime-portraits",
+    title: "Chic comfort where every seat tells a story",
+    category: "Photography",
+    image: "https://i.ibb.co/rQSjzJ8/house.jpg",
+    link: "https://telegra.ph/Images-from-my-project-12-12",
+  },
+  {
+    title: "Bold statements in cozy corners",
+    category: "Photography",
+    image: "https://i.ibb.co/PDX62y1/house3.jpg",
+    link: "https://telegra.ph/Images-from-my-project-12-12",
   },
   {
     title: "Task Manager App",
@@ -96,6 +96,7 @@ export function ProjectsSection() {
                 </DialogTrigger>
                 {/* Project details dialog */}
                 <DialogContent className="sm:max-w-[600px]">
+                  <h2 className="text-2xl font-bold">{project.title}</h2> {/* Add DialogTitle */}
                   <Image
                     src={project.image || "/placeholder.svg"}
                     alt={project.title}
