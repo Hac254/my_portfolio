@@ -15,6 +15,24 @@ const categories = ["All", "UI/UX Design", "Photography", "Anime Drawing", "App 
 // You can easily add more projects or modify existing ones
 const projects = [
   {
+    title: "Chosso, JJK",
+    category: "Anime Drawing",
+    image: "https://telegra.ph/file/11ad0996a2261b8a57e1d.jpg",
+    link: "https://telegra.ph/Photos-Dispaly-04-11",
+  },
+  {
+    title: "Yoruichi, Bleach",
+    category: "Anime Drawing",
+    image: "https://telegra.ph/file/031a220f3ca306bc8a71a.jpg",
+    link: "https://telegra.ph/Photos-Dispaly-04-11",
+  },
+  {
+    title: "Shinra, Fire Force",
+    category: "Anime Drawing",
+    image: "https://telegra.ph/file/c5ea70c55e4d4a2db2a51.jpg",
+    link: "https://telegra.ph/Photos-Dispaly-04-11",
+  },
+  {
     title: "Layers of texture, tales of comfort",
     category: "Photography",
     image: "https://i.ibb.co/H2xCT7H/house4.jpg",
