@@ -51,10 +51,29 @@ const projects = [
     link: "https://telegra.ph/Images-from-my-project-12-12",
   },
   {
-    title: "Task Manager App",
-    category: "App Development",
+    title: "E-commerce Website Redesign",
+    category: "UI/UX Design",
+    image: "https://i.ibb.co/6YzD5yf/image.png",
+    link: "https://www.figma.com/design/u0hCdVF9vCnWBP50iF2co6/Whitepace---SaaS-Landing-Page-(Community)?node-id=215-18338&t=zB82FMvWzIIXxREI-1",
+  },
+  {
+    title: "Nature Photography Collection",
+    category: "Photography",
     image: "/placeholder.svg?height=200&width=300",
-    link: "https://github.com/yourusername/task-manager-app",
+    link: "https://www.flickr.com/yourusername/nature-collection",
+  },
+  {
+    title: "Anime Character Portraits",
+    category: "Anime Drawing",
+    image: "/placeholder.svg?height=200&width=300",
+    link: "https://www.deviantart.com/yourusername/gallery/anime-portraits",
+  },
+  {
+    title: "Carnice Cakes App",
+    category: "App Development",
+    image: "https://i.ibb.co/K7k7YNp/image.png?height=200&width=300",
+    link: "https://github.com/Hac254/carnice-cakes",
+    demoLink: "https://carnicecakes.vercel.app/", // Add demo link for app development projects
   },
   // Add more projects as needed
 ]
@@ -114,7 +133,6 @@ export function ProjectsSection() {
                 </DialogTrigger>
                 {/* Project details dialog */}
                 <DialogContent className="sm:max-w-[600px]">
-                  <h2 className="text-2xl font-bold">{project.title}</h2> {/* Add DialogTitle */}
                   <Image
                     src={project.image || "/placeholder.svg"}
                     alt={project.title}
@@ -125,9 +143,19 @@ export function ProjectsSection() {
                   <div className="mt-4">
                     <h3 className="text-xl font-semibold">{project.title}</h3>
                     <p className="text-muted-foreground mt-2">{project.category}</p>
-                    <Button className="mt-4 w-full" onClick={() => window.open(project.link, "_blank")}>
-                      View Full Project
-                    </Button>
+                    <div className="mt-4 space-y-2">
+                      <Button className="w-full" onClick={() => window.open(project.link, "_blank")}>
+                        View Full Project
+                      </Button>
+                      {project.category === "App Development" && project.demoLink && (
+                        <Button
+                          className="w-full bg-secondary hover:bg-secondary/90"
+                          onClick={() => window.open(project.demoLink, "_blank")}
+                        >
+                          View Live Demo
+                        </Button>
+                      )}
+                    </div>
                   </div>
                 </DialogContent>
               </Dialog>
