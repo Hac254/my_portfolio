@@ -52,7 +52,7 @@ const testimonials = [
     name: "Raha Fuad",
     role: "Marketing Director, CreativeMinds",
     content:
-      "Joshua's design work for our campaign was brilliant. He has a great eye for detail and understands client needs perfectly. His creative approach and attention to brand consistency helped us achieve outstanding results. The project was delivered ahead of schedule, and the quality exceeded our expectations. A true professional who goes above and beyond.",
+      " :) ",
     image: "https://i.ibb.co/Vq0FhRG/profile-pic-9.png",
   },
 ]
