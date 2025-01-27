@@ -15,10 +15,23 @@ const categories = ["All", "UI/UX Design", "Photography", "Anime Drawing", "App 
 // You can easily add more projects or modify existing ones
 const projects = [
   {
+    title: "E-commerce Website Redesign",
+    category: "UI/UX Design",
+    image: "https://i.ibb.co/6YzD5yf/image.png",
+    link: "https://www.figma.com/design/u0hCdVF9vCnWBP50iF2co6/Whitepace---SaaS-Landing-Page-(Community)?node-id=215-18338&t=zB82FMvWzIIXxREI-1",
+  },
+  {
     title: "Chosso, JJK",
     category: "Anime Drawing",
     image: "https://telegra.ph/file/11ad0996a2261b8a57e1d.jpg",
     link: "https://telegra.ph/Photos-Dispaly-04-11",
+  },
+  {
+    title: "Self Management App, Therapeutic",
+    category: "App Development",
+    image: "https://i.ibb.co/g9BzFL4/image.png",
+    link: "https://github.com/Hac254/self-management-app",
+    demoLink: "https://self-management-model.vercel.app/", // Add demo link for app development projects
   },
   {
     title: "Yoruichi, Bleach",
@@ -39,6 +52,13 @@ const projects = [
     link: "https://telegra.ph/Images-from-my-project-12-12",
   },
   {
+    title: "Behavioural Activation Tool, Therapy",
+    category: "App Development",
+    image: "https://i.ibb.co/QYJHqS9/image.png",
+    link: "https://github.com/Hac254/Behavioural-Activation-Project",
+    demoLink: "https://behavioural-activation-tool.vercel.app/", // Add demo link for app development projects
+  },
+  {
     title: "Chic comfort where every seat tells a story",
     category: "Photography",
     image: "https://i.ibb.co/rQSjzJ8/house.jpg",
@@ -50,30 +70,57 @@ const projects = [
     image: "https://i.ibb.co/PDX62y1/house3.jpg",
     link: "https://telegra.ph/Images-from-my-project-12-12",
   },
-  {
-    title: "E-commerce Website Redesign",
-    category: "UI/UX Design",
-    image: "https://i.ibb.co/6YzD5yf/image.png",
-    link: "https://www.figma.com/design/u0hCdVF9vCnWBP50iF2co6/Whitepace---SaaS-Landing-Page-(Community)?node-id=215-18338&t=zB82FMvWzIIXxREI-1",
-  },
-  {
-    title: "Nature Photography Collection",
-    category: "Photography",
-    image: "/placeholder.svg?height=200&width=300",
-    link: "https://www.flickr.com/yourusername/nature-collection",
-  },
-  {
-    title: "Anime Character Portraits",
-    category: "Anime Drawing",
-    image: "/placeholder.svg?height=200&width=300",
-    link: "https://www.deviantart.com/yourusername/gallery/anime-portraits",
-  },
+  
   {
     title: "Carnice Cakes App",
     category: "App Development",
     image: "https://i.ibb.co/K7k7YNp/image.png?height=200&width=300",
     link: "https://github.com/Hac254/carnice-cakes",
     demoLink: "https://carnicecakes.vercel.app/", // Add demo link for app development projects
+  },
+  {
+    title: "Chatbot App",
+    category: "App Development",
+    image: "https://i.ibb.co/yg4j0cp/image.png",
+    link: "https://github.com/Hac254/TherapyChatbot",
+    demoLink: "https://therapy-chatbot-one.vercel.app/", // Add demo link for app development projects
+  },
+  {
+    title: "Choosemore App",
+    category: "App Development",
+    image: "https://i.ibb.co/P5D04Tp/image.png",
+    link: "https://github.com/Hac254/Choosemore-App",
+    demoLink: "https://choosemore.vercel.app/", // Add demo link for app development projects
+  },
+  {
+    title: "Hino, Our Story",
+    category: "Anime Drawing",
+    image: "https://i.ibb.co/z2Mz3qV/photo-2024-12-17-16-11-05.jpg",
+    link: "https://telegra.ph/Art-and-Photography-01-27",
+  },
+  {
+    title: "Red Rose, Nature's Beauty",
+    category: "Photography",
+    image: "https://i.ibb.co/fSTqkzv/photo-2025-01-27-08-53-35.jpg",
+    link: "https://telegra.ph/Art-and-Photography-01-27",
+  },
+  {
+    title: "Pink Rose, Nature's Beauty",
+    category: "Photography",
+    image: "https://i.ibb.co/JmfrG1k/photo-2025-01-27-08-53-37.jpg",
+    link: "https://telegra.ph/Art-and-Photography-01-27",
+  },
+  {
+    title: "Sunset by the River, Splendor of Nature",
+    category: "Photography",
+    image: "https://i.ibb.co/5BVMXrw/photo-2025-01-27-08-53-33.jpg",
+    link: "https://telegra.ph/Art-and-Photography-01-27",
+  },
+  {
+    title: "Gpuiy, Anime Drawing",
+    category: "Anime Drawing",
+    image: "https://i.ibb.co/5Rcx0PG/photo-2024-11-19-15-20-30.jpg",
+    link: "https://telegra.ph/Art-and-Photography-01-27",
   },
   // Add more projects as needed
 ]

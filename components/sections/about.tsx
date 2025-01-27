@@ -54,33 +54,24 @@ const clients = [
   {
     name: "Ransom & Wilder",
     logo: "https://i.ibb.co/bHpGgW8/logo-1-color.png",
-    link: "https://example.com/ransom-wilder",
+    link: "https://ntfos.com/dt_logos/ransom/",
   },
   {
-    name: "InnovateSoft",
-    logo: "https://i.ibb.co/bHpGgW8/logo-1-color.png",
-    link: "https://example.com/innovatesoft",
+    name: "Big Enough",
+    logo: "https://i.ibb.co/x74sPXh/logo-2-color.png",
+    link: "https://ntfos.com/dt_logos/ransom/",
   },
   {
-    name: "WebGenius",
-    logo: "https://i.ibb.co/bHpGgW8/logo-1-color.png",
-    link: "https://example.com/webgenius",
+    name: "Cara Indoors",
+    logo: "https://i.ibb.co/2jv0rcj/logo-3-color.png",
+    link: "https://www.madeindesign.co.uk/prod-cara-indoor-padded-armchair-plastic-material-textile-grey-black-tissu-kartell-ref5842-4d.html",
   },
   {
-    name: "DigitalDreams",
-    logo: "https://i.ibb.co/bHpGgW8/logo-1-color.png",
-    link: "https://example.com/digitaldreams",
+    name: "Mountain Sport",
+    logo: "https://i.ibb.co/8cCNnW6/logo-6-color.png",
+    link: "https://www.mountainsports.com/?srsltid=AfmBOop1gKGL1RLMGqL5jihW8HSeeLzGyRrDZHk1QWbqKY8FwCEF-NDw",
   },
-  {
-    name: "CloudNine",
-    logo: "https://i.ibb.co/bHpGgW8/logo-1-color.png",
-    link: "https://example.com/cloudnine",
-  },
-  {
-    name: "CreativeMinds",
-    logo: "https://i.ibb.co/bHpGgW8/logo-1-color.png",
-    link: "https://example.com/creativeminds",
-  },
+  
 ]
 
 export function AboutSection() {
