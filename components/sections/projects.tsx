@@ -15,10 +15,16 @@ const categories = ["All", "UI/UX Design", "Photography", "Anime Drawing", "App 
 // You can easily add more projects or modify existing ones
 const projects = [
   {
-    title: "E-commerce Website Redesign",
+    title: "SaaS Landing page ",
     category: "UI/UX Design",
-    image: "https://i.ibb.co/6YzD5yf/image.png",
+    image: "https://i.ibb.co/WPYkt6L/image.png",
     link: "https://www.figma.com/design/u0hCdVF9vCnWBP50iF2co6/Whitepace---SaaS-Landing-Page-(Community)?node-id=215-18338&t=zB82FMvWzIIXxREI-1",
+  },
+  {
+    title: "E-commerce Website",
+    category: "UI/UX Design",
+    image: "https://i.ibb.co/NgR7Q9q/image.png",
+    link: "https://www.figma.com/design/6ej5Y0oR4T2tO46nJUfs3o/Full-E-Commerce-Website-UI-UX-Design-(Community)?node-id=1-3&t=t2V2ty1ANYiibHts-1",
   },
   {
     title: "Chosso, JJK",
@@ -29,7 +35,7 @@ const projects = [
   {
     title: "Self Management App, Therapeutic",
     category: "App Development",
-    image: "https://i.ibb.co/g9BzFL4/image.png",
+    image: "https://i.ibb.co/yQgTv6p/image.png",
     link: "https://github.com/Hac254/self-management-app",
     demoLink: "https://self-management-model.vercel.app/", // Add demo link for app development projects
   },
@@ -38,6 +44,12 @@ const projects = [
     category: "Anime Drawing",
     image: "https://telegra.ph/file/031a220f3ca306bc8a71a.jpg",
     link: "https://telegra.ph/Photos-Dispaly-04-11",
+  },
+  {
+    title: "Travel Website",
+    category: "UI/UX Design",
+    image: "https://i.ibb.co/RDWp4zV/image.png",
+    link: "https://www.figma.com/design/rPUutNd5YIk9dTdsn52yO9/Travel-Website-Landing-Page-(Community)?node-id=0-1&t=OHUpB6NFLNr2otwZ-1",
   },
   {
     title: "Shinra, Fire Force",
@@ -52,9 +64,15 @@ const projects = [
     link: "https://telegra.ph/Images-from-my-project-12-12",
   },
   {
+    title: "Olaf,my beautiful cat",
+    category: "Photography",
+    image: "https://i.ibb.co/RjnjRhP/olaf.jpg",
+    link: "https://telegra.ph/Art-and-Photography-01-27",
+  },
+  {
     title: "Behavioural Activation Tool, Therapy",
     category: "App Development",
-    image: "https://i.ibb.co/QYJHqS9/image.png",
+    image: "https://i.ibb.co/261Z5Sz/image.png",
     link: "https://github.com/Hac254/Behavioural-Activation-Project",
     demoLink: "https://behavioural-activation-tool.vercel.app/", // Add demo link for app development projects
   },
@@ -70,7 +88,13 @@ const projects = [
     image: "https://i.ibb.co/PDX62y1/house3.jpg",
     link: "https://telegra.ph/Images-from-my-project-12-12",
   },
-  
+  {
+    title: "Personal Growth Journal Tool, Therapy",
+    category: "App Development",
+    image: "https://i.ibb.co/McnKqmg/image.png",
+    link: "https://github.com/Hac254/Behavioural-Activation-Project",
+    demoLink: "https://personal-growth-tool.vercel.app/", // Add demo link for app development projects
+  },
   {
     title: "Carnice Cakes App",
     category: "App Development",
@@ -117,10 +141,34 @@ const projects = [
     link: "https://telegra.ph/Art-and-Photography-01-27",
   },
   {
+    title: "Flowers & Sunsets, My Collages",
+    category: "Photography",
+    image: "https://i.ibb.co/K5PfP6x/img-1700496430937.jpg",
+    link: "https://telegra.ph/My-Collages-12-07-2",
+  },
+  {
     title: "Gpuiy, Anime Drawing",
     category: "Anime Drawing",
     image: "https://i.ibb.co/5Rcx0PG/photo-2024-11-19-15-20-30.jpg",
     link: "https://telegra.ph/Art-and-Photography-01-27",
+  },
+  {
+    title: "MNTN - Landing Page",
+    category: "UI/UX Design",
+    image: "https://i.ibb.co/7Xw0N3x/image.png",
+    link: "https://www.figma.com/design/4ntkNk9XHtv4KW8e5fhMOg/MNTN---Landing-Page-(Community)?node-id=0-1&t=pQ4lCkwhn9GHj1Go-1",
+  },
+  {
+    title: "Shopping Website",
+    category: "UI/UX Design",
+    image: "https://i.ibb.co/9qHRgpj/image.png",
+    link: "https://www.figma.com/design/xOtQ35zG65XJRdWJRJOLu7/Shopping-Website-(Community)?node-id=2-2&t=DIWzjgR1p63j5vn3-1",
+  },
+  {
+    title: "Dashboard Tennis",
+    category: "UI/UX Design",
+    image: "https://i.ibb.co/CsBYksy/image.png",
+    link: "https://www.figma.com/design/dxl1NCpVNQXSrC21flddir/Dashboard-Tennis-(Community)?node-id=1-4&t=BbUtcvz3c3LhSMUG-1",
   },
   // Add more projects as needed
 ]

@@ -28,25 +28,32 @@ const whatIDo = [
 
 const testimonials = [
   {
-    name: "Sarah Johnson",
-    role: "CEO, TechInnovate",
+    name: "Judith Oliech",
+    role: "Secretary, Bodi Highschool",
     content:
       "Joshua's work on our cloud infrastructure was exceptional. His expertise significantly improved our system's efficiency and reliability. The migration process was smooth, and his documentation was thorough. He demonstrated great problem-solving skills and was always available when we needed support. I highly recommend Joshua for any cloud engineering projects.",
-    image: "/placeholder.svg?height=100&width=100",
+    image: "https://i.ibb.co/wYG44zV/judith-oliech.png",
   },
   {
     name: "Michael Chen",
     role: "Lead Developer, WebSolutions",
     content:
       "Working with Joshua was a pleasure. His web development skills are top-notch, and he always delivers on time. He has a great eye for detail and consistently produces clean, efficient code. His ability to understand complex requirements and translate them into elegant solutions is impressive. I would definitely work with him again on future projects.",
-    image: "/placeholder.svg?height=100&width=100",
+    image: "https://i.ibb.co/XVbSQLC/profile-pic-4.png",
   },
   {
-    name: "Emily Rodriguez",
+    name: "Carnice Dianne",
+    role: "CEO, Carnice Cakes",
+    content:
+      "Joshua's design and website development brilliant. He has a great eye for detail and understands client needs perfectly. His creative approach and consistency helped us achieve outstanding results. The website was delivered ahead of schedule, and the quality exceeded our expectations. A true professional who goes above and beyond.",
+    image: "https://i.ibb.co/r2zNTfM/Whats-App-Image-2025-01-22-at-12-01-52-PM.jpg",
+  },
+  {
+    name: "Raha Fuad",
     role: "Marketing Director, CreativeMinds",
     content:
       "Joshua's design work for our campaign was brilliant. He has a great eye for detail and understands client needs perfectly. His creative approach and attention to brand consistency helped us achieve outstanding results. The project was delivered ahead of schedule, and the quality exceeded our expectations. A true professional who goes above and beyond.",
-    image: "/placeholder.svg?height=100&width=100",
+    image: "https://i.ibb.co/Vq0FhRG/profile-pic-9.png",
   },
 ]
 
