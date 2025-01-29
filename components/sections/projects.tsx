@@ -70,6 +70,13 @@ const projects = [
     link: "https://telegra.ph/Art-and-Photography-01-27",
   },
   {
+    title: "My E-Card, Branding",
+    category: "App Development",
+    image: "https://i.ibb.co/jvMCvVyg/image.png",
+    link: "https://github.com/Hac254/Josh-s-e-Card",
+    demoLink: "https://josh-e-card.vercel.app/", // Add demo link for app development projects
+  },
+  {
     title: "Behavioural Activation Tool, Therapy",
     category: "App Development",
     image: "https://i.ibb.co/261Z5Sz/image.png",
