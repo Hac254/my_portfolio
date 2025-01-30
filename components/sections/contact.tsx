@@ -101,7 +101,7 @@ export function ContactSection() {
             </Button>
           </form>
           {formStatus === "success" && (
-            <p className="text-green-500 text-center mt-4">Thank you for your message. We'll get back to you soon!</p>
+            <p className="text-green-500 text-center mt-4">Thank you for your message. I'll get back to you soon!</p>
           )}
           {formStatus === "error" && (
             <p className="text-red-500 text-center mt-4">
