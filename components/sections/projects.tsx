@@ -40,6 +40,13 @@ const projects = [
     demoLink: "https://self-management-model.vercel.app/", // Add demo link for app development projects
   },
   {
+    title: "OCD and Phobias Tool, Therapeutic",
+    category: "App Development",
+    image: "https://i.ibb.co/SZCcq1h/image.png",
+    link: "https://github.com/Hac254/FearLess",
+    demoLink: "https://fear-less.vercel.app/", // Add demo link for app development projects
+  },
+  {
     title: "Yoruichi, Bleach",
     category: "Anime Drawing",
     image: "https://telegra.ph/file/031a220f3ca306bc8a71a.jpg",
