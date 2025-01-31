@@ -15,6 +15,14 @@ const categories = ["All", "UI/UX Design", "Photography", "Anime Drawing", "App 
 // You can easily add more projects or modify existing ones
 const projects = [
   {
+    title: "Online Photo Gallery, Dev",
+    category: "App Development",
+    image: "https://i.ibb.co/0VB2VqD3/image.png",
+    link: "https://github.com/Hac254/Josh-s-Photo-Gallery",
+    demoLink: "Josh-s-Photo-Gallery.vercel.app", // Add demo link for app development projects
+  },
+
+  {
     title: "SaaS Landing page ",
     category: "UI/UX Design",
     image: "https://i.ibb.co/WPYkt6L/image.png",
