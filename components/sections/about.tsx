@@ -35,10 +35,10 @@ const testimonials = [
     image: "https://i.ibb.co/wYG44zV/judith-oliech.png",
   },
   {
-    name: "Michael Chen",
-    role: "Lead Developer, WebSolutions",
+    name: "Sheldon Aseka",
+    role: "Marketing Director, CreativeMinds",
     content:
-      "Working with Joshua was a pleasure. His web development skills are top-notch, and he always delivers on time. He has a great eye for detail and consistently produces clean, efficient code. His ability to understand complex requirements and translate them into elegant solutions is impressive. I would definitely work with him again on future projects.",
+      "Joshua's design work for our campaign was brilliant. He has a great eye for detail and understands client needs perfectly.",
     image: "https://i.ibb.co/XVbSQLC/profile-pic-4.png",
   },
   {
@@ -50,7 +50,7 @@ const testimonials = [
   },
   {
     name: "Raha Fuad",
-    role: "Marketing Director, CreativeMinds",
+    role: "Lead Developer, WebSolutions",
     content:
       " :) ",
     image: "https://i.ibb.co/Vq0FhRG/profile-pic-9.png",
