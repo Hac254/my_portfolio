@@ -44,7 +44,7 @@ export function ContactSection() {
         <CardContent>
           <div className="aspect-video relative rounded-lg overflow-hidden">
             <iframe
-              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15976.515675116696!2d34.4726368!3d-1.0677574!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x182b3f3a76a1c6e1%3A0x9b54e2c4b5e9dc7d!2sMigori%2C%20Kenya!5e0!3m2!1sen!2s!4v1681047641835!5m2!1sen!2s"
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d63821.88871134299!2d37.04473007068761!3d-1.0387251189823504!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x182f4e5b27c66117%3A0xb6f8a7e126152c26!2sThika!5e0!3m2!1sen!2ske!4v1650000000000!5m2!1sen!2ske"
               width="600"
               height="450"
               style={{ border: 0 }}
