@@ -104,6 +104,13 @@ const projects = [
     link: "https://telegra.ph/Images-from-my-project-12-12",
   },
   {
+    title: "OCD Helper tool(Socratic Reasoning) ,Therapeutic",
+    category: "App Development",
+    image: "https://i.ibb.co/k2CVqp8X/image.png",
+    link: "https://github.com/Hac254/cbt-therapy-ocd-tool",
+    demoLink: "https://cbt-therapy-ocd-tool.vercel.app/", // Add demo link for app development projects
+  },
+  {
     title: "Personal Growth Journal Tool, Therapy",
     category: "App Development",
     image: "https://i.ibb.co/McnKqmg/image.png",
