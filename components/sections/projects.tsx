@@ -173,7 +173,7 @@ const projects = [
     category: "App Development",
     image: "https://i.ibb.co/qMvyCwK0/image.png",
     link: "https://github.com/Hac254/Josh-s-Photo-Gallery",
-    demoLink: "Josh-s-Photo-Gallery.vercel.app", // Add demo link for app development projects
+    demoLink: "https://josh-s-photo-gallery.vercel.app", // Add demo link for app development projects
   },
 
   {
