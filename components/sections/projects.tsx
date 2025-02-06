@@ -168,13 +168,13 @@ const projects = [
     image: "https://i.ibb.co/K5PfP6x/img-1700496430937.jpg",
     link: "https://telegra.ph/My-Collages-12-07-2",
   },
- /* {
+  {
     title: "Online Photo Gallery, Dev",
     category: "App Development",
     image: "https://i.ibb.co/qMvyCwK0/image.png",
     link: "https://github.com/Hac254/Josh-s-Photo-Gallery",
     demoLink: "Josh-s-Photo-Gallery.vercel.app", // Add demo link for app development projects
-  },*/
+  },
 
   {
     title: "Gpuiy, Anime Drawing",
