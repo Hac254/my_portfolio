@@ -79,7 +79,7 @@ export function Sidebar() {
               </div>
               <div className="text-sm">
                 <p className="text-muted-foreground">Birthday</p>
-                <time dateTime="2002-04-24">April 24, 2002</time>
+                <time dateTime="2002-04-24">24<sup>th</sup>, April</time>
               </div>
             </div>
 

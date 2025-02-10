@@ -106,7 +106,7 @@ export function ResumeSection() {
       <div className="flex justify-center mt-8">
         <Button
           className="bg-gradient-to-r from-primary via-secondary to-accent text-white font-semibold py-2 px-4 rounded-lg shadow-lg hover:shadow-xl transition-all duration-300 ease-in-out transform hover:scale-105"
-          onClick={() => window.open("https://drive.google.com/file/d/1BKQPMTQR74NCNzc6SdjYdOMj2LUqDKX-/view?usp=drive_link", "_blank")}
+          onClick={() => window.open("https://drive.google.com/file/d/1yWPPAR6k2VrwdnjQIcSZG1I7ZksunfVk/view?usp=sharing", "_blank")}
         >
           <Download className="mr-2 h-4 w-4" /> Download Resume
         </Button>
