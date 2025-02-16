@@ -40,6 +40,14 @@ export function ResumeSection() {
         </CardHeader>
         <CardContent className="space-y-4">
           <div>
+            <h3 className="font-semibold underline-gradient">Lecturer</h3>
+            <p className="text-sm text-muted-foreground">February 2025 — Present</p>
+            <p className="mt-2 text-sm">
+              Currently serving as a Lecturer at Thika Technical Training Institute, teaching IT-related courses to students. 
+              Responsible for curriculum delivery, student mentoring, and practical training in various Information Technology subjects.
+            </p>
+          </div>
+          <div>
             <h3 className="font-semibold underline-gradient">Digital Resource Creator</h3>
             <p className="text-sm text-muted-foreground">2024 April — Present</p>
             <p className="mt-2 text-sm">
