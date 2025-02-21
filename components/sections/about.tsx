@@ -93,7 +93,7 @@ export function AboutSection() {
           <p className="text-muted-foreground">
             Hello, I'm Josh, a certified IT Personnel and a Cloud Practitioner. I am also a Web and App Developer,
             Graphics Designer, Photographer among other tech related roles which I do on my part-time. I currently live
-            in Kenya, Migori town to be precise. I love Music, anime and cats. I enjoy turning ideas and concepts into
+            in Kenya, Thika town to be precise. I love Music, anime and cats. I enjoy turning ideas and concepts into
             reality as I face new challenging tasks in my field which make me learn.
           </p>
           <p className="mt-4 text-muted-foreground">
