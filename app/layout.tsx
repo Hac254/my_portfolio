@@ -10,9 +10,51 @@ const poppins = Poppins({
   variable: "--font-poppins",
 })
 
+// Enhanced metadata for better SEO
 export const metadata: Metadata = {
-  title: "Josh's Portfolio",
-  description: "Cloud Engineer and Web Developer Portfolio",
+  title: "Joshua Wafula | Cloud Engineer & Web Developer",
+  description:
+    "Portfolio of Joshua Wafula, a certified IT Personnel, Cloud Practitioner, Web Developer, and App Developer based in Kenya. View my projects, skills, and experience.",
+  keywords: [
+    "Joshua Wafula",
+    "Wafula Joshua",
+    "Cloud Engineer",
+    "Web Developer",
+    "Kenya Developer",
+    "App Developer",
+    "UI/UX Designer",
+    "Photography",
+  ],
+  authors: [{ name: "Joshua Wafula" }],
+  creator: "Joshua Wafula",
+  openGraph: {
+    type: "website",
+    locale: "en_US",
+    url: "https://wafula-josh.vercel.app/",
+    title: "Joshua Wafula | Cloud Engineer & Web Developer",
+    description:
+      "Portfolio of Joshua Wafula, a certified IT Personnel, Cloud Practitioner, Web Developer, and App Developer based in Kenya.",
+    siteName: "Joshua Wafula Portfolio",
+    images: [
+      {
+        url: "https://wafula-josh.vercel.app/og-image.png", // Create this image and replace with actual path
+        width: 1200,
+        height: 630,
+        alt: "Joshua Wafula Portfolio",
+      },
+    ],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Joshua Wafula | Cloud Engineer & Web Developer",
+    description:
+      "Portfolio of Joshua Wafula, a certified IT Personnel, Cloud Practitioner, Web Developer, and App Developer based in Kenya.",
+    images: ["https://wafula-josh.vercel.app/og-image.png"], // Same as OG image
+  },
+  robots: {
+    index: true,
+    follow: true,
+  },
 }
 
 export default function RootLayout({
