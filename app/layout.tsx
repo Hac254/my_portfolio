@@ -38,7 +38,7 @@ export const metadata: Metadata = {
     siteName: "Joshua Wafula Portfolio",
     images: [
       {
-        url: "https://wafula-josh.vercel.app/og-image.png", // Create this image and replace with actual path
+        url: "https://wafula-josh.vercel.app/_next/image?url=https%3A%2F%2Fi.ibb.co%2FSNxQVFS%2Fmy-avatar.png&w=128&q=75", // Create this image and replace with actual path
         width: 1200,
         height: 630,
         alt: "Joshua Wafula Portfolio",
@@ -50,7 +50,7 @@ export const metadata: Metadata = {
     title: "Joshua Wafula | Cloud Engineer & Web Developer",
     description:
       "Portfolio of Joshua Wafula, a certified IT Personnel, Cloud Practitioner, Web Developer, and App Developer based in Kenya.",
-    images: ["https://wafula-josh.vercel.app/og-image.png"], // Same as OG image
+    images: ["https://wafula-josh.vercel.app/_next/image?url=https%3A%2F%2Fi.ibb.co%2FjvMCvVyg%2Fimage.png&w=640&q=75"], // Same as OG image
   },
   robots: {
     index: true,
