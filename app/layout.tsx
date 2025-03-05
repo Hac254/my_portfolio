@@ -3,6 +3,7 @@ import { Poppins } from "next/font/google"
 import "./globals.css"
 import { ThemeProvider } from "@/components/theme/theme-provider"
 import { ThemeToggle } from "@/components/theme/theme-toggle"
+import Script from "next/script"
 
 const poppins = Poppins({
   subsets: ["latin"],
@@ -64,7 +65,24 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en" suppressHydrationWarning className="dark">
+      <head><Script
+          strategy="afterInteractive"
+          src={`https://www.googletagmanager.com/gtag/js?id=G-48THCFH2Z7`} // Replace with your actual measurement ID
+        />
+        <Script
+          id="google-analytics"
+          strategy="afterInteractive"
+          dangerouslySetInnerHTML={{
+            __html: `
+              window.dataLayer = window.dataLayer || [];
+              function gtag(){dataLayer.push(arguments);}
+              gtag('js', new Date());
+              gtag('config', 'G-48THCFH2Z7'); // Replace with your actual measurement ID
+            `,
+          }}
+        /></head>
       <body className={poppins.variable}>
+        
         <ThemeProvider
           attribute="class"
           defaultTheme="dark"
