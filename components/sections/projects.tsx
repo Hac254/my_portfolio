@@ -16,6 +16,27 @@ const categories = ["All", "UI/UX Design", "Photography", "Anime Drawing", "App 
 const projects = [
   
   {
+    title: "KU SME Project ",
+    category: "Web Development",
+    image: "https://i.ibb.co/QFGnsrDd/image.png",
+    link: "https://github.com/Hac254/SME-PROJECT",
+    demoLink: "https://sme-project.vercel.app/", // Add demo link for app development projects
+  },
+  {
+    title: "Delice-De-Hilda ",
+    category: "Web Development",
+    image: "https://i.ibb.co/d0cGHmDt/image.png",
+    link: "https://github.com/Hac254/Delice-de-Hilda",
+    demoLink: "https://delice-de-hilda.vercel.app/", // Add demo link for app development projects
+  },
+  {
+    title: "KU SME Project 2 ",
+    category: "App Development",
+    image: "https://i.ibb.co/RkJRrf3m/image.png",
+    link: "https://github.com/Hac254/KU-SME-Website",
+    demoLink: "https://ku-sme-project.vercel.app/", // Add demo link for app development projects
+  },
+  {
     title: "SaaS Landing page ",
     category: "UI/UX Design",
     image: "https://i.ibb.co/WPYkt6L/image.png",
