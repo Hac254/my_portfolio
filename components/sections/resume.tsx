@@ -24,7 +24,7 @@ export function ResumeSection() {
             <h3 className="font-semibold underline-gradient">University Education</h3>
             <p className="text-sm text-muted-foreground">2019 — 2023</p>
             <p className="mt-2 text-sm">
-              I got my bachelor's degree from Kibabii University, located in Bungoma county, Kenya, where I took a four
+              I got my bachelor&apos;s degree from Kibabii University, located in Bungoma county, Kenya, where I took a four
               year course, Bachelors of Science in Information Technology. Offered under the school of Computing and
               Informatics. I graduated on December 23rd 2023.
             </p>
@@ -44,7 +44,7 @@ export function ResumeSection() {
             <p className="text-sm text-muted-foreground">February 2025 — Present</p>
             <p className="mt-2 text-sm">
               Currently serving as a Lecturer at Thika Technical Training Institute, teaching IT-related courses to students. 
-              Responsible for curriculum delivery, student mentoring, and practical training in various Information Technology subjects.
+              Responsible for curriculum delivery, student mentoring, examination setting, invigilation and practical training in various Information Technology subjects.
             </p>
           </div>
           <div>
