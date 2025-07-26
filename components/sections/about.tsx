@@ -91,7 +91,7 @@ export function AboutSection() {
         </CardHeader>
         <CardContent>
           <p className="text-muted-foreground">
-            Hello, I'm Josh, a certified IT Personnel and a Cloud Practitioner. I am also a Web and App Developer,
+            Hello, I&apos;m Josh, a certified IT Practitioner and a Cloud Practitioner. I am also a Web and App Developer,
             Graphics Designer, Photographer among other tech related roles which I do on my part-time. I currently live
             in Kenya, Thika town to be precise. I love Music, anime and cats. I enjoy turning ideas and concepts into
             reality as I face new challenging tasks in my field which make me learn.
@@ -143,7 +143,7 @@ export function AboutSection() {
       {/* Clients section */}
       <Card>
         <CardHeader>
-          <CardTitle className="text-2xl font-bold gradient-text">Clients I've Worked With</CardTitle>
+          <CardTitle className="text-2xl font-bold gradient-text">Clients I&apos;ve Worked With</CardTitle>
         </CardHeader>
         <CardContent className="overflow-x-auto">
           <div className="flex gap-8 w-max pb-4">
