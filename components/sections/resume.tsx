@@ -49,9 +49,9 @@ export function ResumeSection() {
           </div>
           <div>
             <h3 className="font-semibold underline-gradient">Digital Resource Creator</h3>
-            <p className="text-sm text-muted-foreground">2024 April — Present</p>
+            <p className="text-sm text-muted-foreground">2024 April — January 2025</p>
             <p className="mt-2 text-sm">
-              Current role at Fikia LTD as a Digital Resource Creator, providing IT support, web development, lesson
+              Previous role at Fikia LTD as a Digital Resource Creator, providing IT support, web development, lesson
               plan creation, and web app/game development.
             </p>
           </div>
