@@ -13,11 +13,12 @@ const poppins = Poppins({
 
 // Enhanced metadata for better SEO
 export const metadata: Metadata = {
-  title: "Joshua Wafula | Cloud Engineer & Web Developer",
+  title: "Joshua Wafula | IT Practitioner & Web Developer",
   description:
-    "Portfolio of Joshua Wafula, a certified IT Personnel, Cloud Practitioner, Web Developer, and App Developer based in Kenya. View my projects, skills, and experience.",
+    "Portfolio of Joshua Wafula, a certified IT Personnel, IT Practitioner, Cloud Practitioner, Web Developer, and App Developer based in Kenya. View my projects, skills, and experience.",
   keywords: [
     "Joshua Wafula",
+    "IT Practitioner",
     "Wafula Joshua",
     "Cloud Engineer",
     "Web Developer",
@@ -32,7 +33,7 @@ export const metadata: Metadata = {
     type: "website",
     locale: "en_US",
     url: "https://wafula-josh.vercel.app/",
-    title: "Joshua Wafula | Cloud Engineer & Web Developer",
+    title: "Joshua Wafula | IT Practitioner & Web Developer",
     description:
       "Portfolio of Joshua Wafula, a certified IT Personnel, Cloud Practitioner, Web Developer, and App Developer based in Kenya.",
     siteName: "Joshua Wafula Portfolio",
