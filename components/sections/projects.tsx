@@ -23,6 +23,13 @@ const projects = [
     demoLink: "https://sme-project.vercel.app/", // Add demo link for app development projects
   },
   {
+    title: "Mewa Entreprises Website ",
+    category: "Web Development",
+    image: "https://i.ibb.co/8LqqqNDv/image.png",
+    link: "https://github.com/Hac254/Mewa-enterprises-website",
+    demoLink: "https://mewa-enterprises.vercel.app/", // Add demo link for app development projects
+  },
+  {
     title: "Delice-De-Hilda ",
     category: "Web Development",
     image: "https://i.ibb.co/d0cGHmDt/image.png",
