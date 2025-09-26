@@ -32,7 +32,7 @@ const projects = [
   {
     title: "Delice-De-Hilda ",
     category: "Web Development",
-    image: "https://i.ibb.co/d0cGHmDt/image.png",
+    image: "https://i.ibb.co/hJP7k7Zk/image.png",
     link: "https://github.com/Hac254/Delice-de-Hilda",
     demoLink: "https://delice-de-hilda.vercel.app/", // Add demo link for app development projects
   },
