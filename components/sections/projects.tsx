@@ -17,21 +17,21 @@ const projects = [
   
   {
     title: "KU SME Project ",
-    category: "Web Development",
+    category: "App Development",
     image: "https://i.ibb.co/QFGnsrDd/image.png",
     link: "https://github.com/Hac254/SME-PROJECT",
     demoLink: "https://sme-project.vercel.app/", // Add demo link for app development projects
   },
   {
     title: "Mewa Entreprises Website ",
-    category: "Web Development",
+    category: "App Development",
     image: "https://i.ibb.co/8LqqqNDv/image.png",
     link: "https://github.com/Hac254/Mewa-enterprises-website",
     demoLink: "https://mewa-enterprises.vercel.app/", // Add demo link for app development projects
   },
   {
     title: "Delice-De-Hilda ",
-    category: "Web Development",
+    category: "App Development",
     image: "https://i.ibb.co/hJP7k7Zk/image.png",
     link: "https://github.com/Hac254/Delice-de-Hilda",
     demoLink: "https://delice-de-hilda.vercel.app/", // Add demo link for app development projects
