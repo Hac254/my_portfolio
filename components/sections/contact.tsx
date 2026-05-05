@@ -30,7 +30,7 @@ export function ContactSection() {
       } else {
         setFormStatus("error")
       }
-    } catch (error) {
+    } catch {
       setFormStatus("error")
     }
   }
