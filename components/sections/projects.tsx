@@ -203,6 +203,13 @@ const projects = [
     link: "https://github.com/Hac254/Josh-s-Photo-Gallery",
     demoLink: "https://josh-s-photo-gallery.vercel.app", // Add demo link for app development projects
   },
+  {
+    title: "Wendy's Glam Kisumu, Dev",
+    category: "App Development",
+    image: "https://i.ibb.co/VpL7Hfvs/image.png",
+    link: "https://github.com/Hac254/Wendy-s-Glam-Kisumu",
+    demoLink: "https://wendys-glam.vercel.app/", // Add demo link for app development projects
+  },
 
   {
     title: "Gpuiy, Anime Drawing",
