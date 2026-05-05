@@ -204,7 +204,7 @@ const projects = [
     demoLink: "https://josh-s-photo-gallery.vercel.app", // Add demo link for app development projects
   },
   {
-    title: "Wendy's Glam , Dev",
+    title: "Wendy's Glam Kisumu, Dev",
     category: "App Development",
     image: "https://i.ibb.co/VpL7Hfvs/image.png",
     link: "https://github.com/Hac254/Wendy-s-Glam-Kisumu",
