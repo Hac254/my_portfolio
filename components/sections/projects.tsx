@@ -285,7 +285,7 @@ export function ProjectsSection() {
                       height={200}
                       className="object-cover w-full h-48 transition-all duration-300 ease-in-out group-hover:scale-105"
                     />
-                    <div className="absolute inset-0 bg-black/60 flex items-end p-4 transition-all duration-300 ease-in-out group-hover:opacity-100 opacity-0 rounded-xl">
+                    <div className="pointer-events-none group-hover:pointer-events-auto absolute inset-0 bg-black/60 flex items-end p-4 transition-all duration-300 ease-in-out group-hover:opacity-100 opacity-0 rounded-xl">
                       <div>
                         <h3 className="text-white font-semibold">{project.title}</h3>
                         <Badge
@@ -310,16 +310,17 @@ export function ProjectsSection() {
                   <div className="mt-4">
                     <h3 className="text-xl font-semibold">{project.title}</h3>
                     <p className="text-muted-foreground mt-2">{project.category}</p>
-                    <div className="mt-4 space-y-2">
-                      <Button className="w-full" onClick={() => window.open(project.link, "_blank")}>
-                        View Full Project
+                    <div className="mt-4 space-y-2 relative z-10">
+                      <Button className="w-full" asChild>
+                        <a href={project.link} target="_blank" rel="noopener noreferrer">
+                          View Full Project
+                        </a>
                       </Button>
                       {project.category === "App Development" && project.demoLink && (
-                        <Button
-                          className="w-full bg-secondary hover:bg-secondary/90"
-                          onClick={() => window.open(project.demoLink, "_blank")}
-                        >
-                          View Live Demo
+                        <Button className="w-full bg-secondary hover:bg-secondary/90" asChild>
+                          <a href={project.demoLink} target="_blank" rel="noopener noreferrer">
+                            View Live Demo
+                          </a>
                         </Button>
                       )}
                     </div>
