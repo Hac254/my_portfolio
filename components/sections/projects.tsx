@@ -27,7 +27,7 @@ const projects = [
     category: "App Development",
     image: "https://i.ibb.co/B2XgQpVq/image.png",
     link: "https://github.com/Hac254/Shatechhub",
-    demoLink: "hhttps://shatechhub.vercel.app/", // Add demo link for app development projects
+    demoLink: "https://shatechhub.vercel.app/", // Add demo link for app development projects
   },
   {
     title: "Mewa Entreprises Website ",
