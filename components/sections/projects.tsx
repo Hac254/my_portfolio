@@ -255,6 +255,12 @@ const projects = [
     image: "https://i.ibb.co/SwPKNpBJ/1-2.png",
     link: "https://telegra.ph/Graphics-Design-Projects-06-07",
   },
+  {
+    title: "Shatech Hub Business Card",
+    category: "Graphics Design",
+    image: "https://i.ibb.co/hxWJpdZm/image.png",
+    link: "https://telegra.ph/Graphics-Design-Projects-06-07",
+  },
   // Add more projects as needed
 ]
 
