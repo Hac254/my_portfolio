@@ -9,7 +9,7 @@ import { Dialog, DialogContent, DialogTrigger } from "@/components/ui/dialog"
 import { Button } from "@/components/ui/button"
 
 // Define project categories
-const categories = ["All", "UI/UX Design", "Photography", "Anime Drawing", "App Development"]
+const categories = ["All", "UI/UX Design", "Graphics Design", "Photography", "Anime Drawing", "App Development"]
 
 // Sample projects data
 // You can easily add more projects or modify existing ones
@@ -241,6 +241,12 @@ const projects = [
     category: "UI/UX Design",
     image: "https://i.ibb.co/CsBYksy/image.png",
     link: "https://www.figma.com/design/dxl1NCpVNQXSrC21flddir/Dashboard-Tennis-(Community)?node-id=1-4&t=BbUtcvz3c3LhSMUG-1",
+  },
+  {
+    title: "Allentronics Business Card",
+    category: "Graphics Design",
+    image: "https://i.ibb.co/SwPKNpBJ/1-2.png",
+    link: "https://telegra.ph/Graphics-Design-Projects-06-07",
   },
   // Add more projects as needed
 ]
