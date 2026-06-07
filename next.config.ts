@@ -4,7 +4,7 @@ const nextConfig: NextConfig = {
   /* config options here */
   
   images: {
-    domains: ['i.ibb.co','telegra.ph'],
+    domains: ['i.ibb.co', 'telegra.ph', 'opengraph.githubassets.com'],
   },
 };
 

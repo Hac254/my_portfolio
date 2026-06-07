@@ -217,6 +217,13 @@ const projects = [
     link: "https://github.com/Hac254/Wendy-s-Glam-Kisumu",
     demoLink: "https://wendys-glam.vercel.app/", // Add demo link for app development projects
   },
+  {
+    title: "Thika TTI Yearbook Website",
+    category: "App Development",
+    image: "https://i.ibb.co/GmMMb2y/image.png",
+    link: "https://github.com/Hac254/thika-tti-yearbook",
+    demoLink: "https://thika-tti-yearbook.vercel.app/",
+  },
 
   {
     title: "Gpuiy, Anime Drawing",
